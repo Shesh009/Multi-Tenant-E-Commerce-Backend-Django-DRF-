@@ -62,7 +62,7 @@ Follow these steps to install and run the project locally.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/multi-tenant-ecommerce.git
+git clone https://github.com/Shesh009/Multi-Tenant-E-Commerce-Backend-Django-DRF-.git
 cd multi-tenant-ecommerce
 ```
 
@@ -201,14 +201,6 @@ X-Tenant-Domain: mystore.example.com
 | POST   | /auth/register/      | Register a new user (owner, staff, or customer). |
 | POST   | /auth/login/         | Obtain JWT access and refresh tokens.            |
 
-<!-- ### Vendors
-
-| Method | Endpoint       | Description              | Access                       |
-| ------ | -------------- | ------------------------ | ---------------------------- |
-| GET    | /vendors/      | List all vendors.        | Admin only                   |
-| POST   | /vendors/      | Create a new vendor.     | Admin or public registration |
-| GET    | /vendors/{id}/ | Retrieve vendor details. | All roles                    | -->
-
 ### Products
 
 | Method | Endpoint        | Description                          | Access                 |
@@ -248,14 +240,6 @@ X-Tenant-Domain: mystore.example.com
   ]
 }
 ```
-
-### Customers
-
-| Method | Endpoint         | Description                           |
-| ------ | ---------------- | ------------------------------------- |
-| GET    | /customers/      | List customers of the current vendor. |
-| POST   | /customers/      | Create a customer profile.            |
-| GET    | /customers/{id}/ | Retrieve a customer’s profile.        |
 
 ---
 
